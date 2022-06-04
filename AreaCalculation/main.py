@@ -30,3 +30,4 @@ for element in elements_data:
     elephant_area += areacal(v1, v2, v3)
 elements_file = 'data/Mountain.elements.txt'
 nodes_file = 'data/Mountain.nodes.txt'
+print("wangfuhao1")
