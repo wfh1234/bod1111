@@ -2,6 +2,9 @@ import numpy as np
 import math
 
 
+
+
+
 # areacal(v1,v2,v3)由三个顶点坐标计算三角形面积
 def areacal(v1, v2, v3):
     a = math.sqrt((v1[0] - v2[0]) ** 2 + (v1[1] - v2[1]) ** 2 + (v1[2] - v2[2]) ** 2)

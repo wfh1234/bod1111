@@ -33,6 +33,9 @@ def vecTriangleArea(point, depth_z):
         return 0.5 * np.linalg.norm(np.cross(edge_vector1, edge_vector2))
 
 
+
+
+
 def square_area(point, depth_z):
     point1 = point[:3]
     point2 = point[1:]
